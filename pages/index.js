@@ -1,11 +1,11 @@
 import Layout from '../components/Layout';
-import styles from '../styles/Home.module.css';
+import Home from '../components/Home';
 
-export default function Home() {
+export default function Index() {
   return (
     <Layout>
       <div>
-        <h1>Syket</h1>
+        <Home />
       </div>
     </Layout>
   );
