@@ -5,7 +5,7 @@ import BasicPortfolio from './BasicPortfolio';
 
 const Portfolio = () => {
   return (
-    <div className={styles.portfolio_wrapper}>
+    <div id="portfolio" className={styles.portfolio_wrapper}>
       <PortfolioFeatured />
       <BasicPortfolio />
       <div className={styles.more}>

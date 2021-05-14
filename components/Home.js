@@ -22,7 +22,9 @@ const Home = () => {
       </div>
       <div className={styles.cta}>
         <button className={styles.resume}>Get Resume</button>
-        <button className={styles.aboutMe}>About Me</button>
+        <button className={styles.aboutMe}>
+          <a href="#about">About Me</a>
+        </button>
       </div>
     </div>
   );
