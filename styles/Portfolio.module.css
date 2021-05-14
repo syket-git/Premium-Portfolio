@@ -82,3 +82,21 @@
     margin: 0;
     letter-spacing: 1px !important;
 }
+
+.more {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.more a {
+    background: transparent;
+    border: 2px solid var(--secondary);
+    color: white;
+    padding: 12px 30px;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.more a:hover {
+    background: var(--secondary);
+    color: black;
+}
