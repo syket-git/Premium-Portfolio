@@ -25,10 +25,12 @@ const Header = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="/">Blog</a>
+            <a target="_blank" href="https://medium.com/@syketweb">
+              Blog
+            </a>
           </li>
           <li>
-            <a className={styles.resume} href="/#about">
+            <a className={styles.resume} href="/latest-resume.pdf" download>
               Resume
             </a>
           </li>

@@ -15,14 +15,29 @@ const Home = () => {
         Software Engineer
       </p>
       <div className={styles.social}>
-        <img src="/github.svg" width="30" alt="" />
-        <img src="/facebook.svg" width="30" alt="" />
-        <img src="/linkedin.svg" width="30" alt="" />
-        <img src="/whatsapp.svg" width="30" alt="" />
+        <a href="https://github.com/syket-git" target="_blank">
+          <img src="/github.svg" width="30" alt="" />
+        </a>
+        <a href="https://facebook.com/syketb" target="_blank">
+          <img src="/facebook.svg" width="30" alt="" />
+        </a>
+        <a href="https://www.linkedin.com/in/syketb/" target="_blank">
+          <img src="/linkedin.svg" width="30" alt="" />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=8801865556490"
+          target="_blank"
+        >
+          <img src="/whatsapp.svg" width="30" alt="" />
+        </a>
         {/* <a href="https://api.whatsapp.com/send?phone=15551234567">Send Message</a> */}
       </div>
       <div className={styles.cta}>
-        <button className={styles.resume}>Get Resume</button>
+        <button className={styles.resume}>
+          <a href="/latest-resume.pdf" download>
+            Get Resume
+          </a>
+        </button>
         <button className={styles.aboutMe}>
           <a href="#about">About Me</a>
         </button>

@@ -14,7 +14,11 @@ const About = () => {
           opportunity that suits my interests.
         </p>
         <div className={styles.about__cta}>
-          <button className={styles.resume}>Get Resume</button>
+          <button className={styles.resume}>
+            <a href="/latest-resume.pdf" download>
+              Get Resume
+            </a>
+          </button>
           <button className={styles.skills}>
             <a href="#skill">My Skills</a>
           </button>
