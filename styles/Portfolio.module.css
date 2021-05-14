@@ -100,3 +100,12 @@
     background: var(--secondary);
     color: black;
 }
+
+@media (max-width: 992px) {
+    .portfolioItems {
+        flex-direction: column;
+    }
+    .portfolio {
+        margin: 0 0 30px;
+    }
+}

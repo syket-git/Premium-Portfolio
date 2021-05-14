@@ -91,3 +91,18 @@
     left: 0;
     border-radius: 4px;
 }
+
+@media (max-width: 768px) {
+    .card {
+        margin: 0 0 30px;
+    }
+    .skill {
+        flex-direction: column;
+    }
+    .skills__nav {
+        justify-content: center;
+    }
+    .card h4 {
+        font-size: 20px;
+    }
+}

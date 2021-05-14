@@ -53,3 +53,13 @@
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .about__img {
+        width: 100%;
+    }
+}

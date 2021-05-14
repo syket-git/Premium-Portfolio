@@ -1,15 +1,15 @@
 .footer {
     margin-top: 180px;
-    background: var(--simple-secondary);
-    padding: 30px 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 .farewells ul {
     list-style: none;
     display: flex;
+    padding: 0;
 }
 .farewells ul li {
     background: #000000;
@@ -61,4 +61,14 @@
 .footer__details ul > :last-child span {
     font-size: 25px;
     padding: 0px 7px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__details ul {
+        padding: 0;
+    }
 }

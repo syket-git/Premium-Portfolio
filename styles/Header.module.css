@@ -4,8 +4,6 @@
     justify-content: space-between;
     padding: 15px 0px;
     transition: all 0.3s ease-in;
-    padding-left: 70px;
-    padding-right: 70px;
 }
 .header .logo {
     width: 65px;
@@ -52,8 +50,6 @@
 @media (max-width: 768px) {
     .header {
         position: relative;
-        padding-left: 10px;
-        padding-right: 10px;
     }
     .menu {
         width: 30px;
