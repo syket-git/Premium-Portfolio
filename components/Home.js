@@ -19,6 +19,7 @@ const Home = () => {
         <img src="/facebook.svg" width="30" alt="" />
         <img src="/linkedin.svg" width="30" alt="" />
         <img src="/whatsapp.svg" width="30" alt="" />
+        {/* <a href="https://api.whatsapp.com/send?phone=15551234567">Send Message</a> */}
       </div>
       <div className={styles.cta}>
         <button className={styles.resume}>Get Resume</button>
