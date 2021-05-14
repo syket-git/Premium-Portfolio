@@ -25,7 +25,10 @@ const Portfolio = ({ name, details, img, links, tools }) => {
           </ul>
         </div>
         <div className={styles.tools}>
-          <ul>{tools?.length > 0 && tools?.map((tool) => <li>{tool}</li>)}</ul>
+          <ul>
+            {tools?.length > 0 &&
+              tools?.map((tool, i) => <li key={i}>{tool}</li>)}
+          </ul>
         </div>
       </div>
     </div>

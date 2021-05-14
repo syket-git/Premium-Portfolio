@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
         />
       </Head>
       <Header />
-      {children}
+      <div className="website__body">{children}</div>
       <Footer />
     </div>
   );
