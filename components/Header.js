@@ -13,19 +13,19 @@ const Header = () => {
       <nav className={styles.navigation}>
         <ul>
           <li>
-            <a href="/#about">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="/#about">Skill</a>
+            <a href="#skill">Skill</a>
           </li>
           <li>
-            <a href="/#about">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="/#about">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="/#about">Blog</a>
+            <a href="/">Blog</a>
           </li>
           <li>
             <a className={styles.resume} href="/#about">

@@ -3,7 +3,7 @@ import styles from '../styles/About.module.css';
 
 const About = () => {
   return (
-    <div className={styles.about}>
+    <div id="about" className={styles.about}>
       <div className={styles.about__details}>
         <p>
           Hi! I'm Syket Bhattachergee, a dedicated Web Developer. I develop web
