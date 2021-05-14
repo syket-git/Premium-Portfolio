@@ -37,7 +37,7 @@
 }
 
 .card {
-    background: #1e3944;
+    background: var(--simple-secondary);
     padding: 25px 25px 35px;
     position: relative;
     border-radius: 4px;

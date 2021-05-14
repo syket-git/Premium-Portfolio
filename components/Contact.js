@@ -3,7 +3,7 @@ import styles from '../styles/Contact.module.css';
 
 const Contact = () => {
   return (
-    <div className={styles.contact}>
+    <div id="contact" className={styles.contact}>
       <div className={styles.contact__status}>
         <p>
           I am interested in working with any company that thinks my skill will
